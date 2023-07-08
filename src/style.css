@@ -201,6 +201,7 @@ body {
     display: flex;
     background-color: #363738;
     margin-top: 10px;
+    align-items: baseline;
 }
 .spacing-circles {
     display: flex;
@@ -359,7 +360,6 @@ iframe {
     padding-left: 70px;
     padding-right: 70px;
     margin-top: 50px;
-    margin-bottom: 50px;
     
 }
 .cont{
@@ -421,10 +421,6 @@ iframe {
     display: block;
 }
 
-.container5{
-    background-color: black;
-    height: 100vh;
-}
 .page4-right > img{
     border-radius: 30px;
    height: 400px;
@@ -473,5 +469,132 @@ iframe {
     font-size: 14px;
     display: flex;
     padding: 10px 20px;
-
 }
+
+.container5{
+    background-color: #363738;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.container5a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: center;
+}
+.page5-body{
+    display: flex;
+    flex-direction: column;
+    background-color: #232323;
+    border-radius: 20px;
+    row-gap: 24px;
+    align-items: flex-start;
+    padding: 40px;
+}
+.body-1{
+    color: white;
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.4;
+    font-weight: 900;
+}
+.body-2{
+    background-color:#363738 ;
+    color: white;
+    padding: 15px 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.body-3{
+    font-size: 14px;
+    color: white;   
+}
+.body-4{
+    background-color: rgba(54, 55, 56, .75);
+    font-weight: 800;
+    align-self: stretch;
+    text-align: right;
+    padding: 15px 20px;
+}
+.body-4 a {
+       text-decoration: none;
+       color: white;
+}
+.page5-footer{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    background-color:rgba(54, 55, 56, .75) ;
+    color: white;
+    font-size: 14px;
+    padding: 15px 20px;
+    align-self: stretch;
+    justify-content: flex-end;
+}
+.container6{
+    height: 100vh;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    justify-content: center;
+}
+.container6a{
+    display: flex;
+    background-color:#363738 ;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 64px;
+    align-items: center;
+}
+.page6-left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    height: 350px;
+}
+.quote{
+    display: flex;
+    margin-bottom: 36px;
+}
+
+.page6-left2{       
+    color: white;
+    font-weight: 400;
+    line-height: 1.4;
+    padding-bottom: 20%;   
+}
+.miniImage > img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.page6-right > img{
+    border-radius: 20px;    
+}
+.page6-left4{
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    color: white;
+}
+.page6-left3{
+    display: flex;
+    gap: 10px;
+}
+.namealumena{
+    font-size: 18px;
+    font-weight: 900;
+}
+.workfield{
+font-size: 14px;
+font-weight: 400;
+}
+
+
